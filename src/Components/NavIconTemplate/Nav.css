@@ -1,0 +1,26 @@
+.nav {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: background-color .2ms ease;
+}
+
+.nav:hover {
+    background-color: rgba(255, 255, 255, 0.158);
+}
+
+h2 {
+    font-size: 15px;
+    font-weight: 500;
+}
+.navigation.active h2{
+    display: none;
+}
+.icon {
+    font-size: 20px;
+}
